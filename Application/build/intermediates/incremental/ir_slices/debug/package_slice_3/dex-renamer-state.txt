@@ -1,0 +1,4 @@
+#Sat Feb 23 14:14:23 JST 2019
+base.0=R\:\\camera2\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex
