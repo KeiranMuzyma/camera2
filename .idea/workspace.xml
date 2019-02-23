@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b900e3ee-894e-4493-8367-3c2186d6c268" name="Default Changelist" comment="" />
+    <list default="true" id="b900e3ee-894e-4493-8367-3c2186d6c268" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kenzy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -28,15 +46,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="4" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -47,18 +75,123 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/tests/AndroidManifest.xml">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/AutoFitTextureView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#2637#0" />
+                <element signature="method#AutoFitTextureView#2;class#AutoFitTextureView#0" />
+                <element signature="method#setAspectRatio#0;class#AutoFitTextureView#0" />
+                <element signature="method#onMeasure#0;class#AutoFitTextureView#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#40149#0" />
+                <element signature="initializer##0;class#Camera2BasicFragment#0" />
+                <element signature="class#4507:5116" />
+                <element signature="method#onSurfaceTextureAvailable#0;class#4507:5116" />
+                <element signature="method#onSurfaceTextureSizeChanged#0;class#4507:5116" />
+                <element signature="method#onSurfaceTextureUpdated#0;class#4507:5116" />
+                <element signature="class#5853:6773" />
+                <element signature="method#onOpened#0;class#5853:6773" />
+                <element signature="method#onDisconnected#0;class#5853:6773" />
+                <element signature="method#onError#0;class#5853:6773" />
+                <element signature="class#7496:7718" />
+                <element signature="method#onImageAvailable#0;class#7496:7718" />
+                <element signature="class#8726:11629" />
+                <element signature="method#process#0;class#8726:11629" />
+                <element signature="method#onCaptureProgressed#0;class#8726:11629" />
+                <element signature="method#onCaptureCompleted#0;class#8726:11629" />
+                <element signature="e#11636#12112#0" />
+                <element signature="class#11909:12094" />
+                <element signature="e#12118#14689#0" />
+                <element signature="e#14202#14283#0" />
+                <element signature="e#14800#15032#0" />
+                <element signature="e#15038#15335#0" />
+                <element signature="e#15341#15550#0" />
+                <element signature="e#15556#16210#0" />
+                <element signature="e#15663#15745#0" />
+                <element signature="e#16216#16339#0" />
+                <element signature="e#16345#16686#0" />
+                <element signature="e#16692#17310#0" />
+                <element signature="e#17316#22849#0" />
+                <element signature="e#19067#19150#0" />
+                <element signature="e#21138#21222#0" />
+                <element signature="e#22572#22654#0" />
+                <element signature="e#22855#23945#0" />
+                <element signature="e#23951#24718#0" />
+                <element signature="e#24724#25018#0" />
+                <element signature="e#25024#25398#0" />
+                <element signature="e#25404#28289#0" />
+                <element signature="class#26419:28175" />
+                <element signature="method#onConfigured#0;class#26419:28175" />
+                <element signature="method#onConfigureFailed#0;class#26419:28175" />
+                <element signature="e#28295#29994#0" />
+                <element signature="e#30116#30757#0" />
+                <element signature="e#30763#31578#0" />
+                <element signature="e#31584#33545#0" />
+                <element signature="class#32791:33276" />
+                <element signature="method#onCaptureCompleted#0;class#32791:33276" />
+                <element signature="e#33551#34230#0" />
+                <element signature="e#33808#33892#0" />
+                <element signature="e#34236#35096#0" />
+                <element signature="e#35102#35702#0" />
+                <element signature="e#35708#35951#0" />
+                <element signature="e#35957#37144#0" />
+                <element signature="e#36292#36392#0" />
+                <element signature="e#36402#37137#0" />
+                <element signature="e#37150#37576#0" />
+                <element signature="e#37293#37569#0" />
+                <element signature="e#37582#38680#0" />
+                <element signature="e#37764#38037#0" />
+                <element signature="e#38047#38055#0" />
+                <element signature="e#38047#38673#0" />
+                <element signature="class#38381:38631" />
+                <element signature="method#onClick#0;class#38381:38631" />
+                <element signature="e#38686#40145#0" />
+                <element signature="e#38843#38851#0" />
+                <element signature="e#38843#40139#0" />
+                <element signature="class#39176:39534" />
+                <element signature="method#onClick#0;class#39176:39534" />
+                <element signature="class#39632:40097" />
+                <element signature="method#onClick#0;class#39632:40097" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
+            <state relative-caret-position="-242" />
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="13" />
     <option name="y" value="154" />
     <option name="width" value="1612" />
@@ -91,6 +224,9 @@
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -185,6 +321,22 @@
             <path>
               <item name="camera2" type="1abcf292:AndroidViewProjectNode" />
               <item name="Application" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="camera2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="camera2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="camera2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="camera2basic" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="camera2" type="1abcf292:AndroidViewProjectNode" />
@@ -379,6 +531,14 @@
       <option name="presentableId" value="Default" />
       <updated>1550895526574</updated>
     </task>
+    <task id="LOCAL-00001" summary="first.">
+      <created>1550899286198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550899286198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -391,40 +551,103 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1616" height="876" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.72120416" visible="true" weight="0.19638243" />
-      <window_info id="Structure" order="2" sideWeight="0.4993234" weight="0.2564433" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.65700483" visible="true" weight="0.17956853" />
+      <window_info id="Structure" order="2" sideWeight="0.4986413" weight="0.25634518" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.2787958" side_tool="true" visible="true" weight="0.19638243" />
+      <window_info id="Favorites" order="5" sideWeight="0.34299517" side_tool="true" visible="true" weight="0.17956853" />
       <window_info id="Captures" order="6" show_stripe_button="false" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Android Profiler" side_tool="true" />
-      <window_info anchor="bottom" id="Find" />
-      <window_info anchor="bottom" id="Debug" sideWeight="0.49935567" weight="0.3292978" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="1" sideWeight="0.49935567" weight="0.3292978" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49935567" weight="0.6682809" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.3292978" />
-      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.5006443" side_tool="true" weight="0.3292978" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Android Profiler" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49935567" weight="0.4035326" />
+      <window_info anchor="bottom" id="Logcat" order="4" weight="0.5066829" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="5" visible="true" weight="0.74848115" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49935567" weight="0.32880434" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49935567" weight="0.66711956" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.5006443" side_tool="true" weight="0.3292978" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32880434" />
+      <window_info anchor="right" id="Device File Explorer" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Gradle" order="1" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Build Variants" order="4" show_stripe_button="false" sideWeight="0.5006766" side_tool="true" weight="0.32925257" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="first." />
+    <option name="LAST_COMMIT_MESSAGE" value="first." />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/tests/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="88">
+          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
           <folding>
             <element signature="e#0#40149#0" />
             <element signature="initializer##0;class#Camera2BasicFragment#0" />
@@ -499,18 +722,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/AutoFitTextureView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/tests/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="113">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2637#0" />
+            <element signature="method#AutoFitTextureView#2;class#AutoFitTextureView#0" />
+            <element signature="method#setAspectRatio#0;class#AutoFitTextureView#0" />
+            <element signature="method#onMeasure#0;class#AutoFitTextureView#0" />
+          </folding>
         </state>
       </provider>
     </entry>
